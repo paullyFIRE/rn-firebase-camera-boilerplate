@@ -1,0 +1,6 @@
+module Pods_firebasestarter {
+  umbrella header "Pods-firebasestarter-umbrella.h"
+
+  export *
+  module * { export * }
+}
