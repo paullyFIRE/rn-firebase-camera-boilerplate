@@ -1,7 +1,7 @@
 To install:
 
-1. run `yarn`
-2. `cd /ios && pod install && cd ..`
+1. run `yarn` or `npm install` to install dependencies.
+2. `cd /ios && pod install && cd ..` to install iOS pods dependencies.
 3. (Optional: create firebase iOS + Android Apps)
 4. Download config files from Firebase and replace contents in `/android/app/google-services.json`, and `/ios/GoogleService-Info.plist` (More info on [Android](https://rnfirebase.io/#2-android-setup), and [iOS](https://rnfirebase.io/#2-android-setup))
 5. `yarn ios` or `npm run ios` to start iOS.
