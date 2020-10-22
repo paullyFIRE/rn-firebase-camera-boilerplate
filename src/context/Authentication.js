@@ -1,4 +1,3 @@
-import '../lib/firebase'
 import React, { createContext, useContext, useEffect, useState, useMemo } from 'react'
 import auth from '@react-native-firebase/auth'
 

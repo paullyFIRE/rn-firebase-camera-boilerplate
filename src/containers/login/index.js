@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { View, Text, StyleSheet, TouchableOpacity, TextInput } from 'react-native'
+import { View, Text, StyleSheet, TouchableOpacity, TextInput, Keyboard } from 'react-native'
 import auth from '@react-native-firebase/auth'
 
 export default function Login() {
@@ -9,6 +9,13 @@ export default function Login() {
   const [isFetching, setIsFetching] = useState(false)
 
   const onLogin = () => {
+    Keyboard.dismiss()
+
+    if (email === '' || password === '') {
+      setErrorMessage('Email/Password required')
+      return
+    }
+
     setIsFetching(true)
     setErrorMessage('')
 
@@ -21,6 +28,13 @@ export default function Login() {
   }
 
   const onRegister = () => {
+    Keyboard.dismiss()
+
+    if (email === '' || password === '') {
+      setErrorMessage('Email/Password required')
+      return
+    }
+
     setIsFetching(true)
     setErrorMessage('')
 
@@ -77,7 +91,6 @@ const styles = StyleSheet.create({
   formContainer: {
     width: '80%',
     alignItems: 'center',
-    transform: [{ translateY: '-50%' }],
   },
   inputLabel: {
     fontSize: 24,

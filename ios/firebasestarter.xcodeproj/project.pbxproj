@@ -20,6 +20,7 @@
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
 		A119299DF2A4C9F29EF17626 /* libPods-firebasestarter-firebasestarterTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A3B7541406112660F0060512 /* libPods-firebasestarter-firebasestarterTests.a */; };
 		AACDA76E0404BA0EB5684A7D /* libPods-firebasestarter.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F1A21A24330E9066FB512E06 /* libPods-firebasestarter.a */; };
+		DAAD1AC725414C24002EF835 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DAAD1AC625414C24002EF835 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +65,7 @@
 		A3B7541406112660F0060512 /* libPods-firebasestarter-firebasestarterTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-firebasestarter-firebasestarterTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC391D12051BF5101F002C6C /* Pods-firebasestarter-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-firebasestarter-tvOS.release.xcconfig"; path = "Target Support Files/Pods-firebasestarter-tvOS/Pods-firebasestarter-tvOS.release.xcconfig"; sourceTree = "<group>"; };
 		D1846868EF2113C25A6A6444 /* libPods-firebasestarter-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-firebasestarter-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAAD1AC625414C24002EF835 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
 		F1A21A24330E9066FB512E06 /* libPods-firebasestarter.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-firebasestarter.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -128,6 +130,7 @@
 				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
 				13B07FB01A68108700A75B9A /* AppDelegate.m */,
+				DAAD1AC625414C24002EF835 /* GoogleService-Info.plist */,
 				13B07FB51A68108700A75B9A /* Images.xcassets */,
 				13B07FB61A68108700A75B9A /* Info.plist */,
 				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
@@ -161,7 +164,6 @@
 				7E0AA14CD493E88CF76418F5 /* Pods-firebasestarter-tvOSTests.debug.xcconfig */,
 				65FDFF40F6B601113C27FC89 /* Pods-firebasestarter-tvOSTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -343,6 +345,7 @@
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				DAAD1AC725414C24002EF835 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

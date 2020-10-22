@@ -12,7 +12,7 @@ export default function Home({ navigation }) {
 
   return (
     <View style={styles.container}>
-      {user.email && <Text style={styles.emailText}>Welcome, {user.email}</Text>}
+      {user?.email && <Text style={styles.emailText}>Welcome, {user.email}</Text>}
 
       <TouchableOpacity style={styles.buttonPrimary} onPress={onNavigateCamera}>
         <Text style={styles.buttonPrimaryLabel}>Camera</Text>
