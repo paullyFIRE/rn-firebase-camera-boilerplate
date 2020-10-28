@@ -15,8 +15,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "457DCF3E257B668A7D82229596310CC0"
-               BuildableName = "libPods-firebasestarter.a"
-               BlueprintName = "Pods-firebasestarter"
+               BuildableName = "libPods-snapwage.a"
+               BlueprintName = "Pods-snapwage"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>

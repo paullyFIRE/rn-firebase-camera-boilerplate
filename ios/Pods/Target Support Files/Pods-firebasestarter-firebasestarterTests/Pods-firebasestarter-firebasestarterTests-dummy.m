@@ -1,5 +1,5 @@
 #import <Foundation/Foundation.h>
-@interface PodsDummy_Pods_firebasestarter_firebasestarterTests : NSObject
+@interface PodsDummy_Pods_snapwage_snapwageTests : NSObject
 @end
-@implementation PodsDummy_Pods_firebasestarter_firebasestarterTests
+@implementation PodsDummy_Pods_snapwage_snapwageTests
 @end

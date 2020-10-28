@@ -11,6 +11,5 @@
 #endif
 
 
-FOUNDATION_EXPORT double Pods_firebasestarterVersionNumber;
-FOUNDATION_EXPORT const unsigned char Pods_firebasestarterVersionString[];
-
+FOUNDATION_EXPORT double Pods_snapwageVersionNumber;
+FOUNDATION_EXPORT const unsigned char Pods_snapwageVersionString[];

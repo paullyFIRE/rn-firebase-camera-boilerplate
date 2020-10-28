@@ -109,22 +109,22 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>Pods-firebasestarter-firebasestarterTests.xcscheme</key>
+		<key>Pods-snapwage-snapwageTests.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>Pods-firebasestarter-tvOS.xcscheme</key>
+		<key>Pods-snapwage-tvOS.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>Pods-firebasestarter-tvOSTests.xcscheme</key>
+		<key>Pods-snapwage-tvOSTests.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>Pods-firebasestarter.xcscheme</key>
+		<key>Pods-snapwage.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>

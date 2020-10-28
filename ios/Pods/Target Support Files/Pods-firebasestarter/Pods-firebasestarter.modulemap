@@ -1,5 +1,5 @@
-module Pods_firebasestarter {
-  umbrella header "Pods-firebasestarter-umbrella.h"
+module Pods_snapwage {
+  umbrella header "Pods-snapwage-umbrella.h"
 
   export *
   module * { export * }
